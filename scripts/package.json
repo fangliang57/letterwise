@@ -1,0 +1,16 @@
+{
+  "name": "letterwise-phd-recommender",
+  "version": "1.4.0",
+  "description": "PhD 推荐人组合评估与分数解读工具",
+  "author": "Leon Fang",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/scoring.test.cjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

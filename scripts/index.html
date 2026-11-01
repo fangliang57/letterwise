@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Leon Fang">
+  <meta name="description" content="填写三位推荐人，评估 PhD 推荐信组合强度，自动获得分数解读与调整建议。">
+  <meta name="theme-color" content="#ffffff">
+  <title>荐力 Letterwise · PhD 推荐人评估</title>
+  <link rel="stylesheet" href="./style.css?v=1.4">
+  <script defer src="./scoring.js?v=1.4"></script>
+  <script defer src="./app.js?v=1.4"></script>
+</head>
+<body>
+  <a class="skip-link" href="#workspace">跳到评估内容</a>
+  <div id="app"></div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <dialog id="modal" aria-labelledby="modal-title"></dialog>
+  <noscript><p class="noscript">请启用 JavaScript 以填写推荐人并计算分数。</p></noscript>
+</body>
+</html>
